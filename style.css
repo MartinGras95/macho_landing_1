@@ -1,0 +1,58 @@
+.landing-container{
+    height: 100vh;
+    background-image: linear-gradient(rgba(0,0,0,.2),rgba(0,0,0,.2)), url("https://images.unsplash.com/photo-1491438590914-bc09fcaaf77a?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=750&q=80");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+
+.signup-container{
+    background: rgb(89,248,153);
+    background: linear-gradient(0deg, rgba(89,248,153,1) 88%, rgba(233,233,233,1) 100%);
+    max-width: 550px!important;
+    min-height: 500px!important;
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+    justify-content: space-evenly;
+    flex-shrink: 1;
+    padding-left: 35px;
+    margin-left: 100px;
+    -webkit-box-shadow: 2px 2px 5px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 2px 2px 5px 0px rgba(0,0,0,0.75);
+    box-shadow: 2px 2px 5px 0px rgba(0,0,0,0.75);
+    
+}
+
+.heading-container{
+    display: flex;
+    flex-direction: column;
+}
+
+.heading{
+    font-size: 60px;
+}
+
+
+.btn-primary{
+    width: 175px;
+    height: 50px;
+    border-radius: 0!important;
+    background-color: transparent!important;
+    border: 3px solid white!important;
+    font-weight: bold!important;
+    transition: all 0.8s;
+}
+
+.btn-primary:hover{
+    background-color: white!important;
+    color: black!important;
+}
+
+@media only screen and (max-width: 600px){
+    .signup-container{
+        margin-left: 0;
+    }
+}
+
